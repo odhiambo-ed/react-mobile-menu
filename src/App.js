@@ -1,11 +1,15 @@
 import './App.css';
 import Header from './components/Header'
+import Footer from './components/Footer'
 
 function App() {
   return (
-    <div className="App">
-      <Header />
-      <h1>Mobile Menu</h1>
+    <div>
+      <header className='flex flex-row justify-between items-center p-3'>
+        <h3 className='text-blue-600'>LOGO</h3>
+        <Header />
+      </header>
+      <Footer />
     </div>
   );
 }
